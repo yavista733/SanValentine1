@@ -8,7 +8,7 @@ const musica = new Audio('./assets/musica/dragonBallGT.mp3');
 // Si acepta: 
 btnSi.addEventListener('click', ()=>{
     randomPic.src = './assets/fotos/8.jpg';
-    question.innerText = ' Siempre Juntos Amorcito -------- Shairf & Maricielo !!!!! <3 ';
+    question.innerText = ' Siempre Juntos Amorcito ---------------------------- Shairf & Maricielo !!!!! <3 ';
     question.classList.add('question-style');
 
 
