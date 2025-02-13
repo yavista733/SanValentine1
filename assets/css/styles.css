@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background: url('/assets/fotos/hellokittySpiderman.jpg');
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valentine-app{
+    max-width: 560px;
+    min-width: 360px;
+    width: 90%;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 1.8em;
+   
+}
+
+.random-pics{
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    
+}
+
+
+.random-pics img{
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.question{
+    color: white; /* Cambia el texto a blanco */
+    font-weight: bold;
+    font-size: 34px;
+    text-shadow: 2px 2px 5px black; /* Añade una sombra negra para mayor visibilidad */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados para mejorar el diseño */
+    text-align: center; /* Centra el texto si es necesario */
+}
+
+.botones{
+    margin: 12px auto;
+}
+
+.botones__btn-si, .botones__btn-no{
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  900;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 18px;
+}
+
+.botones__btn-si{
+    background: #38fd70;
+}
+
+.botones__btn-no{
+    color: #fff;
+    background: #f00;
+}
+
+.botones__btn-si:hover, .botones__btn-no{
+    cursor: pointer;
+}
+
+/* Estilos para cada condición cumplida */ 
+
+.estilo-1{
+    font-size: 22px ;
+    width: 70px;
+    height: 70px;
+}
+
+.estilo-2{
+    font-size: 28px ;
+    width: 90px;
+    height: 90px;
+}
+
+.estilo-1{
+    font-size: 22px ;
+    width: 70px;
+    height: 70px;
+}
+
+.estilo-2{
+    font-size: 28px ;
+    width: 80px;
+    height: 80px;
+}
+
+.estilo-3{
+    font-size: 34px ;
+    width: 90px;
+    height: 90px;
+}
+
+.estilo-4{
+    font-size: 40px ;
+    width: 110px;
+    height: 110px;
+}
+
+.estilo-5{
+    font-size: 46px ;
+    width: 125px;
+    height: 125px;
+}
+
+/*.question-style{
+    margin-left: 40px;
+    font-family: 'Roboto';
+}*/
+
+.question-style {
+    color: white; /* Cambia el texto a blanco */
+    font-weight: bold;
+    font-size: 34px;
+    text-shadow: 2px 2px 5px black; /* Añade una sombra negra para mayor visibilidad */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados para mejorar el diseño */
+    text-align: center; /* Centra el texto si es necesario */
+}
